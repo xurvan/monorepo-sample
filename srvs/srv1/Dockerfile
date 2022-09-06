@@ -1,5 +1,5 @@
 FROM python:3.10-alpine3.16
 
-COPY /main.pex /code/srv.pex
+COPY srvs.srv1/main.pex /bin
 
-ENTRYPOINT [ "/code/srv.pex" ]
+ENTRYPOINT ["/bin/main.pex"]
