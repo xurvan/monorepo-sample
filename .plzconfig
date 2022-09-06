@@ -1,8 +1,0 @@
-[please]
-version = 16.21.3
-
-[python]
-moduledir = pip
-
-[buildconfig]
-default-docker-repo = mono
