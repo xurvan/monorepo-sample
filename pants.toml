@@ -8,5 +8,8 @@ backend_packages = [
     "pants.backend.docker.lint.hadolint",
 ]
 
+[anonymous-telemetry]
+enabled = false
+
 [python]
 interpreter_constraints = ["CPython==3.10.*"]
