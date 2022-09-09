@@ -1,8 +1,8 @@
 python_sources()
 
 pex_binary(
-    name="main",
-    entry_point="main.py",
+    name="run",
+    entry_point="__main__.py",
 )
 
 docker_image(
